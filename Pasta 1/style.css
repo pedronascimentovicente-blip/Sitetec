@@ -75,7 +75,24 @@ article {
 
 .card-info {
     display: flex;
-    flex-direction: column;
+    flex-direction:// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+}); column;
     gap: 8px;
     text-align: left;
 }
@@ -90,7 +107,24 @@ h2 {
     margin: 0;
     color: var(--texto-claro);
     font-size: 1.5rem;
-}
+}// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});
 
 p {
     margin: 0;
@@ -98,21 +132,1297 @@ p {
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    color: var(--texto-mutado);
+    text-align: cente// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});r;
+    padding: 20px;// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});
+    color: var(--text// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});o-mutado);// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+}); Tech carregado e // Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});pronto!');// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+}); Tech carregado e // Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});pronto!');// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blo// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});
+    console.log('Blog Tech carregado e pronto!');
+});g Tech carregado e// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+}); pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});
+
+    console.log('Blog// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+}); Tech carregado e // Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});pronto!');
+});
+
+    console.log('Blog Tech carregado e pronto!');
+});
     border-top: 1px solid var(--bg-card);
     margin-top: 40px;
 }
 
 /* Ajuste Responsivo para Celulares */
 @media (max-width: 768px) {
-    article {
+    article {// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});
         flex-direction: column;
     }
     .card-img {
         align-self: center;
         width: 100%;
-        height: auto;
+        height: a// Aguarda o carregamento do DOM antes de executar
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('article');
+
+    articles.forEach(article => {
+        // Efeito visual ao passar o mouse sobre o card
+        article.addEventListener('mouseenter', () => {
+            article.style.transform = 'scale(1.01)';
+            article.style.transition = 'transform 0.2s ease-in-out';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            article.style.transform = 'scale(1)';
+        });
+    });
+
+    console.log('Blog Tech carregado e pronto!');
+});uto;
     }
 }
+    
