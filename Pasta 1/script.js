@@ -16,3 +16,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log('Blog Tech carregado e pronto!');
 });
+
