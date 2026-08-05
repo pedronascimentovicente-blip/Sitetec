@@ -4,260 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linha do Tempo da Tecnologia - Meu blog tech</title>
-    <style>
-        :root {
-            --bg-principal: #0f0c1b;
-            --bg-card: #1d1836;
-            --azul-neon: #00d2ff;
-            --roxo-neon: #9b51e0;
-            --texto-claro: #f4f4f9;
-            --texto-mutado: #b3b3cc;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-principal);
-            color: var(--texto-claro);
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-
-        /* Cabeçalho */
-        header {
-            background: linear-gradient(135deg, #1e1035 0%, #09061a 100%);
-            border-bottom: 2px solid var(--roxo-neon);
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.8rem;
-            background: linear-gradient(45deg, var(--azul-neon), var(--roxo-neon));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        header p {
-            color: var(--texto-mutado);
-            font-size: 1.1rem;
-            margin-top: 10px;
-        }
-
-        /* Container da Linha do Tempo */
-        .timeline-container {
-            max-width: 800px;
-            margin: 50px auto;
-            position: relative;
-            padding: 0 20px;
-        }
-
-        /* Linha vertical central */
-        .timeline-container::after {
-            content: '';
-            position: absolute;
-            width: 4px;
-            background: linear-gradient(to bottom, var(--azul-neon), var(--roxo-neon));
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -2px;
-        }
-
-        /* Caixas dos Eventos */
-        .timeline-item {
-            padding: 10px 40px;
-            position: relative;
-            background-color: inherit;
-            width: 50%;
-            box-sizing: border-box;
-        }
-
-        .left {
-            left: 0;
-        }
-
-        .right {
-            left: 50%;
-        }
-
-        /* Círculos indicadores */
-        .timeline-item::after {
-            content: '';
-            position: absolute;
-            width: 16px;
-            height: 16px;
-            right: -8px;
-            background-color: var(--bg-principal);
-            border: 4px solid var(--azul-neon);
-            top: 25px;
-            border-radius: 50%;
-            z-index: 1;
-            transition: 0.3s;
-        }
-
-        .right::after {
-            left: -8px;
-            border-color: var(--roxo-neon);
-        }
-
-        /* Conteúdo dos Cards (Corrigido com Flexbox para evitar sobreposição) */
-        .content {
-            padding: 20px;
-            background-color: var(--bg-card);
-            position: relative;
-            border-radius: 8px;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-            transition: transform 0.2s ease;
-            box-sizing: border-box;
-            
-            /* Garante que os textos e imagens fiquem em fila vertical perfeita */
-            display: flex;
-            flex-direction: column;
-        }
-
-        .content:hover {
-            transform: scale(1.02);
-        }
-
-        .left .content {
-            border-left: 4px solid var(--azul-neon);
-        }
-
-        .right .content {
-            border-left: 4px solid var(--roxo-neon);
-        }
-
-        /* Imagens Padronizadas e Proporcionais */
-        .timeline-img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 6px;
-            margin: 15px 0;
-            display: block;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-            box-sizing: border-box;
-            flex-shrink: 0; /* Impede que a imagem seja esmagada ou esticada */
-        }
-
-        .date {
-            font-weight: bold;
-            color: var(--azul-neon);
-            font-size: 1.2rem;
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        .right .date {
-            color: var(--roxo-neon);
-        }
-
-        .content h2 {
-            margin: 0 0 5px 0;
-            font-size: 1.4rem;
-        }
-
-        .content p {
-            margin: 0;
-            color: var(--texto-mutado);
-            font-size: 0.95rem;
-        }
-
-        /* Rodapé */
-        footer {
-            text-align: center;
-            padding: 30px;
-            color: var(--texto-mutado);
-            font-size: 0.9rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            margin-top: 60px;
-        }
-
-        /* Responsividade para Celulares */
-        @media screen and (max-width: 600px) {
-            .timeline-container::after {
-                left: 31px;
-            }
-
-            .timeline-item {
-                width: 100%;
-                padding-left: 70px;
-                padding-right: 25px;
-            }
-
-            .timeline-item::after {
-                left: 23px;
-                right: auto;
-            }
-
-            .right {
-                left: 0%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Meu blog tech</h1>
-        <p>A Evolução Computacional: Da Mecânica à Inteligência Artificial</p>
+        <h1>Linha do Tempo da Tecnologia</h1>
     </header>
 
-    <div class="timeline-container">
+    <main class="timeline">
 
-        <div class="timeline-item left">
-            <div class="content">
-                <span class="date">Anos 1940</span>
-                <h2>A Era das Válvulas e Relés</h2>
-                <img class="timeline-img" src="1-valvulas.jpg" alt="Válvulas e o computador ENIAC">
-                <p>Surgem os primeiros computadores digitais de grande porte, como o ENIAC. Eles utilizavam milhares de relés e válvulas termiônicas, eram gigantescos e consumiam muita energia.</p>
+        <article class="card">
+            <img class="card-img" src="1-valvulas.jpg" alt="Válvulas termiônicas e ENIAC">
+            <div class="card-info">
+                <span class="date">Anos 1940 - 1950</span>
+                <h2>A Era das Válvulas</h2>
+                <p>Os primeiros computadores eletrônicos (como o ENIAC) ocupavam salas inteiras, consumiam muita energia e utilizavam válvulas termiônicas que queimavam com frequência.</p>
             </div>
-        </div>
+        </article>
 
-        <div class="timeline-item right">
-            <div class="content">
+        <article class="card">
+            <img class="card-img" src="2-transistores.jpg" alt="Transistores e circuitos integrados antigos">
+            <div class="card-info">
                 <span class="date">Anos 1950 - 1960</span>
-                <h2>A Revolução do Transistor</h2>
-                <img class="timeline-img" src="2-transistores.jpg" alt="Transistores em circuitos">
-                <p>A invenção do transistor substitui as válvulas de vidro. Os computadores tornaram-se consideravelmente menores, mais rápidos, mais baratos e mais confiáveis.</p>
+                <h2>A Revolução dos Transistores</h2>
+                <p>A substituição das válvulas por transistores permitiu criar computadores significativamente menores, mais rápidos, mais baratos e mais confiáveis.</p>
             </div>
-        </div>
+        </article>
 
-        <div class="timeline-item left">
-            <div class="content">
+        <article class="card">
+            <img class="card-img" src="3-pcs.jpg" alt="Computador pessoal antigo">
+            <div class="card-info">
                 <span class="date">Anos 1970 - 1980</span>
-                <h2>Microprocessadores e PCs</h2>
-                <img class="timeline-img" src="3-pcs.jpg" alt="Computador pessoal antigo">
+                <h2>O Nascimento dos PCs</h2>
                 <p>A criação dos circuitos integrados (chips) permitiu colocar milhares de transistores em uma pequena placa de silício. Surgem os computadores pessoais (PCs) de mesa.</p>
             </div>
-        </div>
+        </article>
 
-        <div class="timeline-item right">
-            <div class="content">
+        <article class="card">
+            <img class="card-img" src="4-internet.jpg" alt="Antiga navegação na internet ou celulares antigos">
+            <div class="card-info">
                 <span class="date">Anos 1990 - 2000</span>
                 <h2>A Era da Conectividade</h2>
-                <img class="timeline-img" src="4-internet.jpg" alt="Antiga navegação na internet ou celulares antigos">
                 <p>A popularização da Internet e a chegada dos smartphones transformaram o computador em uma ferramenta portátil, global e totalmente conectada em rede.</p>
             </div>
-        </div>
+        </article>
 
-        <div class="timeline-item left">
-            <div class="content">
+        <article class="card">
+            <img class="card-img" src="5-ia.jpg" alt="Conceito moderno de IA e redes neurais">
+            <div class="card-info">
                 <span class="date">Atualidade</span>
                 <h2>Inteligência Artificial Generativa</h2>
-                <img class="timeline-img" src="5-ia.jpg" alt="Conceito moderno de IA e redes neurais">
                 <p>A computação atinge o nível de processamento em larga escala na nuvem. Modelos avançados de IA conseguem criar textos, códigos, imagens e raciocinar de forma contextual em milissegundos.</p>
             </div>
-        </div>
+        </article>
 
-    </div>
+    </main>
 
     <footer>
         <p>&copy; 2026 - Linha do Tempo criada para o "Meu blog tech"</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
